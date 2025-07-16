@@ -1,6 +1,4 @@
-# AI Learning Buddy
-
-![App Screenshot](frontend/image.png?raw=true)
+![AI Learning Buddy Screenshot](https://github.com/shanyaa-tech/ai-learning-buddy/raw/main/frontend/image.png)
 
 
 
