@@ -1,4 +1,4 @@
-![Preview of AI Learning Buddy](ai learning buddy/frontend/image.png)
+![Alt Text](https://github.com/shanyaa-tech/ai-learning-buddy/raw/main/frontend/image.png)
 
 
 
