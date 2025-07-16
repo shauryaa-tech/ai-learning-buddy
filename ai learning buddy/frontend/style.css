@@ -1,0 +1,188 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #dbeafe, #c7d2fe);
+  background-image: url(https://praxis.ac.in/wp-content/uploads/2024/11/technology-people-concept-man-use-ai-help-work-ai-learning-artificial-intelligence-concept-business-modern-technology-internet-networking-concept-ai-technology-everyday-life-1024x683.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 900px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 40px 30px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent white */
+  -webkit-backdrop-filter: blur(10px); /* Blur effect */
+  backdrop-filter: blur(10px); /* Standard property for modern browsers */
+  border-radius: 12px;
+  padding: 20px;
+  
+}
+
+h1 {
+  text-align: center;
+  color: #1e3a8a;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+textarea {
+  width: 100%;
+  height: 60px;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  font-size: 16px;
+  background: #f9fafb;
+  transition: border 0.3s;
+  box-sizing: border-box;
+}
+
+textarea:focus {
+  border-color: #4338ca;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  background-color: #4338ca;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #3730a3;
+}
+
+.output {
+  margin-top: 30px;
+  background-color: #f8fafc;
+  border: 1px solid #e5e7eb;
+  padding: 20px;
+  border-radius: 15px;
+  font-size: 16px;
+  color: #1e293b;
+  line-height: 1.6;
+}
+
+.loader {
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #4338ca;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 30px auto;
+}
+
+.recommendation {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.topic-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.topic-buttons button {
+  width: 100%;
+}
+
+.answer {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f0f8ff;
+  border-radius: 8px;
+  border-left: 4px solid #4338ca;
+}
+
+.answer h3 {
+  color: #1e3a8a;
+  margin-top: 0;
+}
+
+.answer-content {
+  margin-top: 10px;
+}
+
+.small-loader {
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #4338ca;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+  margin: 10px auto;
+}
+
+.error {
+  color: #dc2626;
+}
+
+strong {
+  font-weight: bold;
+}
+
+li {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    padding: 30px 20px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  textarea {
+    font-size: 14px;
+    height: 50px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+
+  .output {
+    font-size: 14px;
+  }
+
+  .loader {
+    width: 30px;
+    height: 30px;
+    border-width: 5px;
+  }
+}

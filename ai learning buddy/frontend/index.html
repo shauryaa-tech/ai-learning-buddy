@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Learning Buddy</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <div class="card">
+      <h1>📘 AI Learning Buddy</h1>
+
+      <textarea id="topics" placeholder="Enter weak topics (comma separated)"></textarea>
+      <textarea id="scores" placeholder="Enter scores for each topic (comma separated)"></textarea>
+
+      <button id="generate-btn" onclick="generate()">Generate Recommendations</button>
+
+      <div id="loader" class="loader" style="display: none;"></div>
+
+      <div id="output" class="output" style="display: none;"></div>
+
+      <button id="back" style="display: none;" onclick="goBack()">🔙 Back</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
