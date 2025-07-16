@@ -1,4 +1,4 @@
-![Preview of AI Learning Buddy](frontend/image.png)
+![Preview of AI Learning Buddy](ai learning buddy/frontend/image.png)
 
 
 
